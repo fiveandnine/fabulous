@@ -1,0 +1,43 @@
+.progressContain{
+    width: 45%;
+    margin: 0 8px;
+}
+@media screen and (max-width: 600px){
+    .progressContain{
+        width: 100%;
+        margin: 0 8px;
+    }
+}
+
+.progressBody {
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+    padding:5px;
+    margin-top: 4px;
+}
+.progressContain .progressNumContain{
+    padding: 0;
+    margin: 0;
+}
+.progressTitle{
+
+}
+.progressContain .progressNum{
+    background: red;
+    color: #ffffff;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+.progressContain .progressTriangle{
+    float: right;
+    padding: 0;
+    border-radius: 2px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid red;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+.progressContain .numButtondiv{
+    margin: 0;
+    padding:0;
+     }

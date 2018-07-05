@@ -1,0 +1,27 @@
+.collectionContainer{
+    margin: 40px 80px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+@media screen and (max-width: 600px) {
+    .collectionContainer{
+        margin:40px 80px;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+.collectionContainer div{
+    display: inline-block;
+}
+.Image{
+    display: inline-block;
+    width: 100%;
+}
+.Image img{
+    width: 100%;
+    height:auto;
+    margin: 5px 0;
+}

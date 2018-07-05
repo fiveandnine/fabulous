@@ -1,0 +1,52 @@
+.CVContainer {
+    margin: 40px;
+}
+.CVContainer .languageBtn{
+    text-align: right;
+    color: blue;
+}
+.CVContainer h1 {
+    /*margin-top: 80px;*/
+    display: inline-block;
+    width: 75%;
+}
+
+.borderH {
+    border-bottom: 2px solid #ffffff;
+}
+
+.CVContainer div {
+    padding: 5px;
+    color: #cccccc;
+}
+
+.fr {
+    float: right;
+}
+
+.CVContainer h3 {
+    border-bottom: 1px solid #ffffff;
+}
+
+.headPhoto {
+    width: 20%;
+    height: auto;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #cccccc;
+}
+.CVContainer div.experienceTitle{
+    color: #ffffff;
+}
+.experienceBody{
+    font-size: 15px;
+    text-indent: 2em;
+}
+.skillContain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

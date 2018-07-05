@@ -1,0 +1,23 @@
+.homePageContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.homePageItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3%;
+}
+.homePageItem div{
+    position: relative;
+    top: 20px;
+    height:0;
+}
+.homePageItem img{
+    display: inline-block;
+    width: 100%;
+    height:auto;
+    border: 1px solid #000000;
+}
